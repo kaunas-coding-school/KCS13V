@@ -1,0 +1,21 @@
+.col {
+    float: left;
+    margin: 0 5px;
+    border: 1px solid green;
+    width: 100px;
+    height: 100px;
+}
+
+.ofs-1 {
+    margin-left: 117px;
+}
+.row {
+    margin: 10px 0;
+    display: flex;
+}
+.raudonas {
+    border: 1px solid red;
+    position: absolute;
+    top: 185px;
+    left: 165px;
+}

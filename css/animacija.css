@@ -1,0 +1,41 @@
+/* Animacijos kodas */
+@keyframes animacija {
+    0% {
+        background-color: limegreen;
+    }
+    25% {
+        background-color: #0d00ff;
+    }
+    50% {
+        background-color: #ff0012;
+    }
+    75% {
+        background-color: darkgreen;
+    }
+    100% {
+        background-color: limegreen;
+    }
+}
+
+@keyframes animacija2 {
+    0% {
+        width: 100px;
+        height: 100px
+    }
+    50% {
+        width: 50px;
+        height: 50px
+    }
+    100% {
+        width: 100px;
+        height: 100px
+    }
+}
+
+/* Elementas kuriam taikysime animacija */
+.col {
+    background-color: limegreen;
+    animation-name: animacija2;
+    animation-duration: 1s;
+    animation-iteration-count: 10;
+}
