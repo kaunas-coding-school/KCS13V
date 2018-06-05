@@ -1,0 +1,40 @@
+body {
+    background-color: cadetblue;
+}
+div {
+    background-color: aliceblue;
+}
+input {
+    background-color: #05abcd;
+}
+
+
+
+
+
+#umygtukas {
+    font-size: 24px;
+}
+
+input[type="button"] {
+    color: green;
+}
+
+.konteineris {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:50%;
+    height:100%;
+    float:left;
+    background-color: antiquewhite;
+}
+.eilute {
+    height: 400px;
+    border: 1px solid red;
+}
+.mygtuko_konteineris {
+    width: 100%;
+    padding: 10px;
+    background-color: aqua;
+}
